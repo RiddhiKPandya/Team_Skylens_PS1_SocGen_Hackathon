@@ -1,0 +1,249 @@
+[
+  {
+    "user_id": "USR00015",
+    "business_impact": [
+      "The account belongs to the Security department and holds administrative privileges across 7 enterprise systems including Okta, AWS IAM, Azure AD, SIEM and ADMIN_SYS. Any misuse or compromise of this account could impact identity management, cloud access controls and security monitoring functions simultaneously.",
+      "Access spanning 6 unique resources combined with administrative permissions creates a high blast radius. A single unauthorized action could propagate across multiple critical platforms, increasing operational disruption and reducing the ability to isolate incidents quickly.",
+      "The account recorded 4 accesses to high-sensitivity resources despite not being a dedicated platform administrator account. Continued broad access to sensitive assets increases the risk of unauthorized configuration changes, exposure of security data, or accidental privilege misuse."
+    ],
+    "potential_solutions": [
+      "Perform an entitlement review across Okta, AWS IAM, Azure AD, SIEM, VPN, ServiceNow and ADMIN_SYS to determine whether all 7 system accesses remain necessary for the user's current responsibilities within the Security team.",
+      "Validate the business justification for each of the 6 accessed resources and apply least-privilege controls where possible. Remove redundant permissions and restrict access to only the systems actively required for operational duties.",
+      "Conduct a focused review of the 4 high-sensitivity resource access events, verify whether they align with approved security activities, and establish periodic access recertification to prevent future privilege accumulation."
+    ]
+},
+  {
+    "user_id": "USR00027",
+    "business_impact": [
+      "Administrative access across seven systems combined with seven unique resource relationships creates a significant identity sprawl condition that increases the blast radius of a compromised account.",
+      "Five accesses to sensitive resources and elevated after-hours activity suggest privileged operations occurring outside normal governance visibility.",
+      "A critical ML anomaly score together with administrative permissions increases the likelihood that unauthorized actions could affect multiple business-critical platforms simultaneously."
+    ],
+    "potential_solutions": [
+      "Perform an immediate privileged access review across all connected systems and remove unnecessary administrative rights.",
+      "Validate all sensitive-resource interactions against approved business activities and document ownership for each entitlement.",
+      "Initiate SOC investigation of anomaly indicators and implement enhanced monitoring with periodic access recertification."
+    ]
+  },
+  {
+    "user_id": "USR00028",
+    "business_impact": [
+      "Administrative privileges spanning six systems increase operational dependency on a single identity.",
+      "Access to seven resources and repeated sensitive-resource interactions create elevated exposure to critical business data.",
+      "The combination of identity sprawl and privileged access may complicate incident containment during a security event."
+    ],
+    "potential_solutions": [
+      "Conduct entitlement rationalization across all six systems.",
+      "Restrict access to sensitive assets using least-privilege controls.",
+      "Establish quarterly privileged-access reviews and approval workflows."
+    ]
+  },
+  {
+    "user_id": "USR00035",
+    "business_impact": [
+      "A dormant privileged account with access across six systems represents a substantial governance risk.",
+      "Data export activity combined with administrative privileges increases the possibility of large-scale data exposure.",
+      "Critical anomaly indicators suggest behavior requiring immediate validation."
+    ],
+    "potential_solutions": [
+      "Disable or suspend access until account ownership and business need are confirmed.",
+      "Review all export activity and verify destination systems.",
+      "Perform SOC-led investigation and reduce excessive privileges."
+    ]
+  },
+  {
+    "user_id": "USR00036",
+    "business_impact": [
+      "Fourteen sensitive-resource accesses indicate concentrated exposure to critical information assets.",
+      "Failed logins and abnormal behavior patterns may signal credential misuse or unauthorized access attempts.",
+      "Multiple risk indicators create elevated operational and compliance exposure."
+    ],
+    "potential_solutions": [
+      "Investigate failed authentication events and rotate credentials if necessary.",
+      "Review all sensitive-resource access against approved responsibilities.",
+      "Implement enhanced monitoring and conditional-access policies."
+    ]
+  },
+  {
+    "user_id": "USR00047",
+    "business_impact": [
+      "A stale power-user account creates dormant privileged-access risk.",
+      "Export operations and sensitive-resource usage increase the potential impact of data leakage.",
+      "Retained elevated permissions may enable broader access than currently required."
+    ],
+    "potential_solutions": [
+      "Validate account ownership and disable inactive access if unnecessary.",
+      "Review historical exports and verify business justification.",
+      "Reduce permissions to align with current operational requirements."
+    ]
+  },
+  {
+    "user_id": "USR00068",
+    "business_impact": [
+      "Administrative access significantly increases potential impact of unauthorized actions.",
+      "Sensitive-resource interactions combined with after-hours activity raise governance concerns.",
+      "High-risk scoring indicates elevated probability of business disruption if the account is compromised."
+    ],
+    "potential_solutions": [
+      "Review and minimize administrative privileges.",
+      "Investigate after-hours access behavior and confirm legitimacy.",
+      "Implement stricter privileged-session monitoring."
+    ]
+  },
+  {
+    "user_id": "USR00077",
+    "business_impact": [
+      "Power-user permissions extend operational reach beyond standard user accounts.",
+      "Sensitive-resource access and off-hours activity increase exposure to unauthorized changes.",
+      "Elevated risk scoring warrants closer governance oversight."
+    ],
+    "potential_solutions": [
+      "Validate the continued need for power-user permissions.",
+      "Review sensitive-resource usage patterns.",
+      "Apply periodic access certification and activity monitoring."
+    ]
+  },
+  {
+    "user_id": "USR00083",
+    "business_impact": [
+      "Service-account anomalies combined with extensive data exports represent a significant security concern.",
+      "Nine accesses to sensitive resources create substantial exposure to business-critical information.",
+      "Critical anomaly findings suggest a heightened likelihood of misuse, compromise, or uncontrolled automation."
+    ],
+    "potential_solutions": [
+      "Validate service-account ownership and automation workflows.",
+      "Investigate export activities and sensitive-resource interactions.",
+      "Escalate for immediate SOC review and enhanced monitoring."
+    ]
+  },
+  {
+    "user_id": "USR00091",
+    "business_impact": [
+      "Frequent exports and sensitive-resource access create elevated data-governance risk.",
+      "Access to multiple resources broadens potential impact from unauthorized actions.",
+      "Significant after-hours activity reduces visibility into operational intent."
+    ],
+    "potential_solutions": [
+      "Review export activity and associated approvals.",
+      "Limit access to only required resources.",
+      "Monitor after-hours behavior and enforce adaptive controls."
+    ]
+  },
+  {
+    "user_id": "USR00121",
+    "business_impact": [
+      "Identity sprawl across multiple enterprise platforms increases the blast radius of compromise.",
+      "Accumulated privileged access may enable unauthorized changes to critical business systems.",
+      "Sensitive-data exposure risk is elevated due to broad entitlement coverage."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00125",
+    "business_impact": [
+      "Administrative permissions create dependency on a single high-value identity.",
+      "Observed behavioral anomalies suggest access patterns requiring validation.",
+      "Privilege concentration increases operational and compliance risk."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00126",
+    "business_impact": [
+      "Multiple high-risk indicators suggest excessive access accumulation over time.",
+      "Broad system visibility could expose confidential business information.",
+      "The account represents a priority candidate for governance review."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00203",
+    "business_impact": [
+      "Identity sprawl across multiple enterprise platforms increases the blast radius of compromise.",
+      "Accumulated privileged access may enable unauthorized changes to critical business systems.",
+      "Sensitive-data exposure risk is elevated due to broad entitlement coverage."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00209",
+    "business_impact": [
+      "Administrative permissions create dependency on a single high-value identity.",
+      "Observed behavioral anomalies suggest access patterns requiring validation.",
+      "Privilege concentration increases operational and compliance risk."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00218",
+    "business_impact": [
+      "Multiple high-risk indicators suggest excessive access accumulation over time.",
+      "Broad system visibility could expose confidential business information.",
+      "The account represents a priority candidate for governance review."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00221",
+    "business_impact": [
+      "Identity sprawl across multiple enterprise platforms increases the blast radius of compromise.",
+      "Accumulated privileged access may enable unauthorized changes to critical business systems.",
+      "Sensitive-data exposure risk is elevated due to broad entitlement coverage."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00314",
+    "business_impact": [
+      "Administrative permissions create dependency on a single high-value identity.",
+      "Observed behavioral anomalies suggest access patterns requiring validation.",
+      "Privilege concentration increases operational and compliance risk."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  },
+  {
+    "user_id": "USR00368",
+    "business_impact": [
+      "Multiple high-risk indicators suggest excessive access accumulation over time.",
+      "Broad system visibility could expose confidential business information.",
+      "The account represents a priority candidate for governance review."
+    ],
+    "potential_solutions": [
+      "Conduct a comprehensive entitlement review and remove redundant permissions.",
+      "Validate account ownership, business justification, and privileged access assignments.",
+      "Implement recurring access recertification and enhanced monitoring controls."
+    ]
+  }
+]
