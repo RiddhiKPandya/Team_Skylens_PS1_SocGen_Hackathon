@@ -1,5 +1,9 @@
 This is Team Skylens final submission for the Societe Generale Hackathon for the PS-1 : Identity Sprawl & Privilege Abuse Detection.
 The following is the complete codebase structure: 
+
+## Project Structure
+
+```text
 Team_Skylens_PS1_SocGen_Hackathon/
 │
 ├── 1. config/
@@ -8,7 +12,6 @@ Team_Skylens_PS1_SocGen_Hackathon/
 │   └── __pycache__/
 │
 ├── 2. Datasets/
-│   │
 │   ├── 1. Raw_Original_datasets/
 │   │   ├── identity_events.csv
 │   │   └── identity_users.csv
@@ -49,3 +52,4 @@ Team_Skylens_PS1_SocGen_Hackathon/
 ├── notebook/
 │
 └── Outputs/
+```
