@@ -119,16 +119,6 @@ Team_Skylens_PS1_SocGen_Hackathon/
 │
 │       • Dependency manifest containing all required Python libraries.
 │       • Enables reproducible deployment and execution.
-│
-├── notebook/
-│
-│   • Experimental workspace for prototyping, testing, and validation.
-│   • Used for exploratory data analysis and model experimentation.
-│
-└── Outputs/
-    │
-    • Repository for generated exports, reports, and demonstration artifacts.
-    • Stores final outputs consumed by analysts and dashboard components.
 ```
 
 ```
